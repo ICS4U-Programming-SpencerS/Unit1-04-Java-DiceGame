@@ -22,7 +22,7 @@ public final class DiceGame {
    *
    * @param args Command line arguments (not used).
    */
-  public static void main(String[] args) {
+  public static void main(final String[] args) {
     // Scanner and random number setup
     final Scanner in = new Scanner(System.in);
     final Random rand = new Random();
